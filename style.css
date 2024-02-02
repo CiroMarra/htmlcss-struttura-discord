@@ -1,0 +1,59 @@
+/*---- RESET ---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---- /RESET---- */
+
+/*---- GENERAL ---- */
+/*body {
+    background-color: #F5F5F5;
+}*/
+
+/*---- /GENERAL ---- */
+.container {
+    max-width: 1180px;
+    margin: auto;
+    background-color: lightcoral;
+    border: 2px dashed black;
+   
+   
+}
+
+
+
+header {
+   background-color: #add8e6;
+   padding-block: 8px;
+}
+
+.navbar > div {
+    border: 2px dashed black;
+   
+}
+
+.col-25{
+    width: 25%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+
+/*--- HEADER ---- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #daa520;
+    padding: 10px 10px;
+   }
+
+   .link-group {
+    flex-grow: 2;
+   }
+
+   
