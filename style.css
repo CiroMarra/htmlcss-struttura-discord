@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /*---- /RESET---- */
@@ -44,16 +45,45 @@ header {
 }
 
 
-/*--- HEADER ---- */
+/*--- HEADER UPPER---- */
 .navbar {
     display: flex;
     justify-content: space-between;
     background-color: #daa520;
     padding: 10px 10px;
+  
    }
 
    .link-group {
     flex-grow: 2;
    }
 
+.link-group {
+    text-align: center;
+}
+
+.login {
+   text-align: end;
+   padding-right: 4px;
+  
+}
+
+.logo {
+padding-left: 4px;
+}
    
+   /* --- HEADER LOWER ---*/
+
+.lower {
+    display: flex;
+    background-color: #00008b;
+    height: 300px;
+}
+
+.pink {
+    background-color: #ee82ee;
+    height: 260px;
+    width: 800px;
+    margin: auto;
+    border: 2px dashed black;
+}
