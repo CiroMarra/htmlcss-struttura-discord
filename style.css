@@ -89,7 +89,7 @@
         background-color: #d3d3d3;
     }
 
-    .black-footer {
+    .black {
         background-color: #23272a;
     }
 
@@ -99,7 +99,6 @@
 
     .verde-acqua {
         background-color: #20b2aa;
-        border: 2px dashed white;
     }
 /*---- /GENERAL ---- */
 
@@ -138,7 +137,7 @@
         padding-right: 4px;
     }
 
-    .logo {
+    .logo-container {
         padding-left: 4px;
     }
    
@@ -156,65 +155,58 @@
 
 /* --- MAIN --- */
 
-    .hero {
+    .d-flex {
         display: flex;
-        padding: 20px 20px;
-    
-        
     }
+
+    .pb-40{
+        padding-block: 40px;
+    }
+
 
     .half {
         height: 400px;
         border: 2px dashed black;
     }
 
-    .halz {
-        height: 400px;
-        border: 2px dashed black;
-        
-    }
-
     .hale {
         height: 600px;
         background-color: green;
         border: 2px dashed black;
-        
+    }
+
+    .halfa{
+       border: 2px dashed white; 
     }
 
 /* --- FOOTER --- */
 
-    .fondo {
-        display: flex;
-        background-color: #23272a;
-     
-        
-    }
 
-    .halza {
-        height: 400px;
-        border: 2px dashed white;
-        
-    }
 
-   .colonne {
-    display: flex;
-   }
-
-   .endbar {
+    .endbar {
         display: flex;
         justify-content: space-between;
         background-color: #7fffd4;
         padding: 10px 10px;
         margin-top: 10px;
-   }
+    }
 
-   .btn {
-    background-color: #ffb6c1;
-    border: 2px dashed black;
-   }
+    .btn {
+        background-color: #ffb6c1;
+        border: 2px dashed black;
+    }
 
-   .logo-2 {
-    border: 2px dashed black;
-    height: 30px;
-    width: 60px;
-   }
+    .logo-2 {
+        border: 2px dashed black;
+        height: 30px;
+        width: 60px;
+    }
+
+
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+ 
