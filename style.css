@@ -24,13 +24,13 @@
     .box {
         height: 260px;
         width: 800px;
-        margin: auto;
+       
         border: 2px dashed black;
     }
 
 
     .box2 {
-        height: 260px;
+        max-width: 260px;
         width: 1000px;
         margin: auto;
         border: 2px dashed black;
